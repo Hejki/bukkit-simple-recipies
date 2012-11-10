@@ -1,0 +1,69 @@
+recipies:
+  # 8 Vines + Cobblestone -> Mossy Cobblestone
+  - result: MOSSY_COBBLESTONE
+    amount: 1
+    ingredients:
+      - VINE,VINE,VINE
+      - VINE,COBBLESTONE,VINE
+      - VINE,VINE,VINE
+
+  # 8 Vines + Stone Brick -> Mossy Stone Brick
+  - result: SMOOTH_BRICK:1
+    ingredients:
+      - VINE,VINE,VINE
+      - VINE,SMOOTH_BRICK,VINE
+      - VINE,VINE,VINE
+
+  # 2x2 Snow Block -> 1 Ice
+  - result: ICE
+    ingredients:
+      - SNOW_BLOCK,SNOW_BLOCK
+      - SNOW_BLOCK,SNOW_BLOCK
+
+  # 2 Single Stone Slab -> 1 Chiseled Stone Brick
+  - result: SMOOTH_BRICK:3
+    ingredients:
+      - STEP:5
+      - STEP:5
+
+  # 2x2 mix of Stone and Cobblestone -> 1 Broken Stone Brick
+  - result: SMOOTH_BRICK:2
+    ingredients:
+      - COBBLESTONE
+      - COBBLESTONE
+      - SMOOTH_BRICK
+      - SMOOTH_BRICK
+
+  # 5 Strings in a X shape -> 4 Cobweb
+  - result: WEB
+    amount: 4
+    ingredients:
+      - STRING,AIR,STRING
+      - AIR,STRING,AIR
+      - STRING,AIR,STRING
+
+  # 3 Leathers, 2 Strings and 2 Iron Ingots -> 1 Saddle
+  - result: SADDLE
+    ingredients:
+      - LEATHER,LEATHER,LEATHER
+      - STRING,AIR,STRING
+      - IRON_INGOT,AIR,IRON_INGOT
+
+  # Dirt + Seeds -> Grass
+  - result: GRASS
+    ingredients:
+      - DIRT
+      - SEEDS
+
+  # Wool -> 2 Strings
+  - result: STRING
+    amount: 2
+    ingredients:
+      - WOOL
+
+furnace:
+  # Chicken Egg -> Chciken Spawn Egg
+  - result: MONSTER_EGG:93
+    input: EGG
+
+

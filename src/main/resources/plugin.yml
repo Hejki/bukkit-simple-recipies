@@ -1,0 +1,4 @@
+name: SimpleRecipies
+author: Hejki
+main: org.hejki.bukkit.simplerecipies.Recipies
+version: ${project.version}

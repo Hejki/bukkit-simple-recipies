@@ -101,6 +101,6 @@ public class Recipies extends JavaPlugin {
     }
 
     public void log(String message) {
-        System.out.println("[Recipies] " + message);
+        System.out.println(String.format("[%s] %s", getName(), message));
     }
 }
